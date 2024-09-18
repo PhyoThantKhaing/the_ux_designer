@@ -1,0 +1,64 @@
+#a_little_brief_about_me {
+    margin-top: 6rem;
+}
+
+.textAndPic {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aboutMeText {
+    color: $primary-color;
+}
+
+.profilePic {
+    border-radius: 0.2rem;
+    width: 40rem;
+    height: 24rem;
+    background: url(../../img/profile\ pic\ cropped.jpg)no-repeat center;
+    background-size: cover;
+    image-rendering: optimizeQuality;
+}
+
+#moreDetail {
+    background-color: $primary-color;
+    padding: 10rem 0;
+}
+
+.textColorWhite {
+    color: $bg-color;
+}
+
+.detailText {
+    margin-bottom: 10rem;
+}
+
+@media (max-width: 1200px) {
+    .profilePic {
+        width: 32rem;
+        height: 30rem;
+    }
+}
+
+@media (max-width: 500px) {
+    #moreDetail {
+        padding: 4rem 0;
+    }
+
+    #a_little_brief_about_me {
+        margin-top: 0;
+    }
+
+    .profilePic {
+        margin-bottom: 2rem;
+        width: 100%;
+        border-radius: 0;
+        justify-content: center;
+    }
+
+    .textAndPic {
+        flex-direction: column-reverse;
+    }
+
+    
+}

@@ -1,0 +1,130 @@
+nav {
+    position: relative;
+}
+
+.navigation {
+    height: 8rem;
+    background-color: $bg-color;
+    border-bottom: 0.1rem solid rgba(111, 134, 149, 20%);
+    z-index: 999;
+}
+
+.brandLogo {
+    z-index: 2;
+}
+
+.nav-link {
+    font-size: $body-font-size;
+    font-family: $secondary-font-family, sans-serif;
+    font-weight: $font-weight-regular;
+    color: #616161;
+}
+
+.nav-link:hover {
+    color: $primary-color;
+}
+.navbar-nav li {
+    padding: 1rem;
+}
+
+.overLayMenu {
+    position: absolute;
+    top: -100vh;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: $bg-color;
+    z-index: 1;
+    opacity: 0;
+}
+
+.show {
+    opacity: 1;
+    top: 0;
+}
+
+.overlayItem {
+    margin: 5rem;
+}
+
+.overlayItem:hover {
+    color: $primary-color;
+}
+
+// hamburger menu
+
+.hamburger {
+    height: 0.4rem;
+    background-color: $primary-color;
+    margin: 0.2rem 0;
+    border-radius: 0.5rem;
+}
+
+.hamburgerBox {
+    display: none;
+    z-index: 2;
+}
+
+.lineOne {
+    width: 3.5rem;
+}
+
+.lineTwo {
+    width: 2.5rem;
+}
+
+.lineThree {
+    width: 3rem;
+}
+
+.hamburgerMenuContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    cursor: pointer;
+}
+
+.hideLineTwo {
+    opacity: 0;
+}
+
+.changeHeightAndWidth {
+    width: 3.5rem;
+    height: 0.5rem;
+}
+
+.rotatePlus45deg {
+    transform: rotate(45deg) translate(0.18rem, 0.9rem);
+    width: 3rem;
+    height: 0.3rem;
+}
+
+.rotateMinus45deg {
+    transform: rotate(-45deg) translate(0.15rem, -0.9rem);
+    width: 3rem;
+    height: 0.3rem;
+}
+
+//animation 
+
+.lineOne, .lineTwo, .lineThree, .overLayMenu, .show {
+    transition: all 0.5s ease-in-out;
+}
+
+
+// responsive
+@media (max-width: 800px) {
+    .navbar-nav {
+        display: none;
+    }
+
+    .hamburgerBox {
+        display: block;
+    }
+}
+
+

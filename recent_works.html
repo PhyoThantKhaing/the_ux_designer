@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phyo The UX Designer</title>
+    <link rel="icon" href="svgs/favicon.svg">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/d295bbc625.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Sora:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+       
+        * {
+		    padding: 0;
+		    margin: 0;
+        }
+        svg {
+            bottom: 0%;
+            position: absolute;
+            width: 100vw;
+            height: 100vh;
+            box-sizing: border-box;
+            display: block;
+            background-color: #0e4166;
+            background-image: linear-gradient(to bottom, rgba(14, 65, 102, 0.86), #0e4166);
+        }
+
+        body {
+            background: url(svgs/background.svg) no-repeat bottom;
+            background-color: #F4FDFF;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navabr-dark navbar-expand navigation sticky-top">
+        <div class="container widthLimit">
+            <div class="brandLogo">
+                <a href="#" class="navbar-brand">
+                    <img src="svgs/logo.svg" alt="Logo">
+                </a>
+            </div>
+    
+            <ul class="navbar-nav">
+                <li class="nav-item"><a href="index.html" class="nav-link">home</a></li>
+                <li class="nav-item"><a href="about_me.html" class="nav-link">about me</a></li>
+                <li class="nav-item"><a href="recent_works.html" class="nav-link">recent works</a></li>
+                <!-- <li class="nav-item"><a href="activity.html" class="nav-link">activity</a></li> -->
+            </ul>
+
+            <div class="hamburgerBox">
+                <div class="hamburgerMenuContainer">
+                    <div class="hamburger lineOne"></div>
+                    <div class="hamburger lineTwo"></div>
+                    <div class="hamburger lineThree"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- responsive menu -->
+        <div class="overLayMenu">
+            <ul class="overlayLi">
+                <li class="overlayItem"><a href="index.html" class="nav-link">home</a></li>
+                <li class="overlayItem"><a href="about_me.html" class="nav-link">about me</a></li>
+                <li class="overlayItem"><a href="recent_works.html" class="nav-link">recent works</a></li>
+                <!-- <li class="overlayItem"><a href="activity.html" class="nav-link">activity</a></li> -->
+            </ul>
+        </div>
+    </nav>
+
+    <div class="mainBody">
+        <!-- recent work Intro -->
+        <section id="recentWorkIntro" class="container widthLimit">
+            <h2 class="recentWorkText">Welcome to my Recent Works portfolio,</h2>
+            <div class="briefTextContainer">
+                <p class="briefText">A place where design meets seamless user experiences. Each project showcased here reflects my dedication to creating intuitive, visually compelling, and user-centric designs.</p>
+                <p class="briefText">Explore my latest projects to discover a harmonious blend of creativity and user-centric design, where every pixel is intentional and every interaction tells a story.</p>
+            </div>
+        </section>
+
+        <!-- recent work Portfolio -->
+        <section id="recentWorkPortfolio" class="container widthLimit">
+
+            <!-- doctor app -->
+            <div id="goToDoctorApp" class="row projectContainer doctorAppBgColor">
+                <div class="col-lg-6 col-md-4 col-sm-12 projectMockupPhoto">
+                    <img src="img/doctorApp/Doctor app mockup.png" alt="Ai medical app doctor side photo" class="mockupPic">
+                </div>
+                <div class="col-lg-6 col-md-8 col-sm-12">
+                    <p class="briefText projectNameOnHome">Doctor Plus: Doctor App</p>
+                    <p class="briefText projectNameOnHome" style="margin-top: 0rem;">AI in Telemedicine</p>
+                </div>
+            </div>
+
+            <!-- super connector app -->
+            <div id="goToSuperConnector" class="row projectContainer superConnectorBgColor">
+                <div class="col-lg-6 col-md-4 col-sm-12 projectMockupPhoto">
+                    <img src="img/projectMockups/Super Connector mockup.png" alt="Super Connector Networking App photo" class="mockupPic">
+                </div>
+                <div class="col-lg-6 col-md-8 col-sm-12">
+                    <p class="briefText projectNameOnHome">Super Connector</p>
+                    <p class="briefText projectNameOnHome" style="margin-top: 0rem;">Building Connections</p>
+                </div>
+            </div>
+
+            <!-- medical website -->
+            <div id="goToMedicalWebsite" class="row projectContainer assureBgColor">
+                <div class="col-lg-6 col-md-4 col-sm-12 projectMockupPhoto">
+                    <img src="img/projectMockups/Medical website mockup.png" alt="Assure Medical Imaging photo" class="mockupPic">
+                </div>
+                <div class="col-lg-6 col-md-8 col-sm-12">
+                    <p class="briefText projectNameOnHome">Assure</p>
+                    <p class="briefText projectNameOnHome" style="margin-top: 0rem;">Medical Imaging</p>
+                </div>
+            </div>
+
+            <!-- jnc lawfirm website -->
+            <div id="goToJnc" class="row projectContainer jncBgColor">
+                <div class="col-lg-6 col-md-4 col-sm-12 projectMockupPhoto">
+                    <img src="img/projectMockups/JNC lawfirm web mockup.png" alt="JNC - Lawfirm website photo" class="mockupPic">
+                </div>
+                <div class="col-lg-6 col-md-8 col-sm-12">
+                    <p class="briefText projectNameOnHome">JNC</p>
+                    <p class="briefText projectNameOnHome" style="margin-top: 0rem;">Cross-Border Legal Excellence</p>
+                </div>
+            </div>
+
+            <!-- quack quack web -->
+            <div id="goToQuackWeb" class="row projectContainer quackQuackWebBgColor">
+                <div class="col-lg-6 col-md-4 col-sm-12 projectMockupPhoto">
+                    <img src="img/projectMockups/Quack Quack Delivery web mockup.png" alt="Quack Quack Delivery Website photo" class="mockupPic">
+                </div>
+                <div class="col-lg-6 col-md-8 col-sm-12">
+                    <p class="briefText projectNameOnHome">Quack Quack</p>
+                    <p class="briefText projectNameOnHome" style="margin-top: 0rem;">Delivery Service</p>
+                </div>
+            </div>
+            
+        </section>
+
+        <!-- contact me -->
+        <section id="contact" class="container widthLimit">
+            <h2 class="sayHi">let's stay in touch for opportunities or just to share a friendly 'hi'!</h2>
+
+            <div class="contactIconContainer">
+                <div class="contactIcon">
+                    <a href="https://www.linkedin.com/in/phyo-thant-khaing-ux-designer" target="_blank">
+                        <i class="fa-brands fa-linkedin "></i>
+                    </a>
+                </div>
+                <div class="contactIcon">
+                    <a href="mailto:phyo.uxdesigner@gmail.com">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </div>
+                <div class="contactIcon">
+                    <a href="https://wa.me/+959771515532" target="_blank">
+                        <i class="fa-brands fa-whatsapp "></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    
+    <script src="hamburger.js"></script>
+    <script>
+        //route functitons
+        navigate("#goToDoctorApp", "doctor_app_case_study.html");
+        navigate("#goToSuperConnector", "super_connector_case_study.html");
+        navigate("#goToMedicalWebsite", "assure_case_study.html");
+        navigate("#goToQuackWeb", "quack_quack_case_study.html");
+        navigate("#goToJnc", "jnc_case_study.html");
+    </script>
+
+</body>
+</html>

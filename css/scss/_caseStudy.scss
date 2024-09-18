@@ -1,0 +1,136 @@
+.whiteBgColor {
+    background-color: #fff;
+}
+
+.npowerBgColor {
+    background-color: #BAC6EC;
+}
+
+.xlanceBgColor {
+    background-color: #e5ffb0;
+}
+
+.patientAppBgColor {
+    background-color: #B3D6FF;
+}
+
+.doctorAppBgColor {
+    background: #F4DEFF;
+}
+
+.superConnectorBgColor {
+    background-color: #A7FCF2;
+}
+
+.assureBgColor {
+    background-color: #D9B08F;
+}
+
+.quackQuackWebBgColor {
+    background-color: #FF9B9B;
+}
+
+.jncBgColor {
+    background-color: #E2E2E2;
+}
+
+
+.caseStudySection {
+    margin-bottom: 0rem;
+    padding: 10rem 1rem;
+}
+
+.mockUpContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.mockupPhoto {
+    height: 30rem;
+}
+
+.projectTitle {
+    font-size: $section-title-font-size-responsive;
+    font-family: $secondary-font-family;
+}
+
+.textContainer {
+    color: $primary-color;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+
+.projectBriefCard {
+    height: 30rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 3rem 2rem;
+    margin: 1rem 0rem;
+}
+
+.listWithDisc {
+    font-family: $secondary-font-family;
+    font-size: $body-font-size;
+    color: $primary-color;
+    list-style-type: disc !important;
+}
+
+.mailTo {
+    color: $primary-color;
+    font-size: $body-font-size;
+    font-family: $secondary-font-family;
+    font-style: italic;
+    font-weight: $font-weight-medium;
+}
+
+.uiScreenShots {
+    width: 90rem;
+    object-fit: contain;
+    border-radius: 0.2rem;
+}
+
+.agileProcess {
+    width: 60rem;
+}
+
+.animationGif {
+    height: 15rem;
+}
+
+@media (max-width: 1200px) {
+    .uiScreenShots {
+        width: 60rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    .mockupPhoto {
+        height: 20rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .mockupPhoto {
+        height: 20rem;
+    }
+
+    .uiScreenShots {
+        width: 35rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .mockupPhoto {
+        height: 18rem;
+    }
+
+    .uiScreenShots {
+        width: 30rem;
+    }
+}

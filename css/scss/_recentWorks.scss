@@ -1,0 +1,81 @@
+#recentWorkIntro {
+    margin-top: 6rem;
+}
+
+.recentWorkText {
+    margin-bottom: 2rem;
+}
+
+.projectContainer {
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0.4rem;
+    padding: 6rem 2rem;
+    margin-bottom: 6rem;
+    transition: all 0.3s;
+}
+
+.projectMockupPhoto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectNameOnHome {
+    color: $text-color;
+    font-size: $heading-font-size;
+    font-family: $secondary-font-family;
+    font-weight: $font-weight-medium;
+}
+
+.mockupPic {
+    display: block;
+    height: 18rem;
+    object-fit: contain;
+}
+
+.projectContainer:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+    box-shadow: 0px 30px 45px rgba(111, 134, 149, 0.15);
+}
+
+@media (max-width: 800px) {
+
+    .projectContainer {
+        margin-bottom: 4rem;
+    }
+
+    .mockupPic {
+        height: 14rem;
+    }
+
+}
+
+@media (max-width: 768px) {
+    
+    .projectBriefText {
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .projectContainer {
+        margin-bottom: 2rem;
+    }
+
+    .projectMockupPhoto .projectOverviewText {
+        justify-content: center;
+    }
+
+    #recentWorkPortfolio {
+        padding: 1.5rem;
+    } 
+
+    .projectNameOnHome {
+        text-align: center;
+    }
+}
+
+
+

@@ -1,0 +1,28 @@
+#contact {
+    margin-bottom: 0;
+    padding-bottom: 10rem;
+}
+
+.sayHi {
+    text-align: center;
+    color: $primary-color;
+    font-size: $body-font-size;
+}
+
+.contactIconContainer {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.contactIcon {
+    font-size: 4rem;
+}
+
+.contactIcon:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    opacity: 0.5;
+}

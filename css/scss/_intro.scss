@@ -1,0 +1,38 @@
+#intro {
+    margin-top: 6rem;
+}
+
+.greeting {
+    color: $secondary-color;
+}
+
+.nameAndJob {
+    margin-top: 0.5rem;
+    color: $primary-color;
+    font-variant: small-caps;
+    letter-spacing: 0.76rem;
+    font-weight: 400;
+}
+
+.briefTextContainer {
+    margin-top: 3rem;
+}
+
+.briefText {
+    margin-top: 2rem;
+    color: $text-color;
+}
+
+@media (max-width: 800px) {
+    #intro {
+        margin-top: 4rem;
+    }
+}
+
+@media (max-width: 500px) {
+    #intro {
+        margin-top: 2rem;
+    }
+}
+
+
